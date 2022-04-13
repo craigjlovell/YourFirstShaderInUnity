@@ -244,7 +244,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: -203655887218126122, guid: b2edb103adea5f449b3818b8ee863423, type: 3}
+  m_Motion: {fileID: -203655887218126122, guid: bc25024217876de49b417fb980d74132, type: 3}
   m_Tag: 
   m_SpeedParameter: Speed
   m_MirrorParameter: IsGrounded
@@ -494,9 +494,6 @@ AnimatorStateTransition:
   - m_ConditionMode: 1
     m_ConditionEvent: IsStillADS
     m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: IsMotionADS
-    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -2096266088333427606}
   m_Solo: 0
@@ -519,8 +516,8 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 1
-    m_ConditionEvent: IsMotionADS
+  - m_ConditionMode: 2
+    m_ConditionEvent: IsStillADS
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -7505593700393217136}
