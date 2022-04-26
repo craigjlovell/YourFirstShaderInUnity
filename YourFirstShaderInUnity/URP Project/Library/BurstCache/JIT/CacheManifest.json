@@ -3,18 +3,34 @@
   "Assemblies": [
     {
       "FullName": "Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-04-26T04:45:57.0699816Z"
+      "LastWriteTime": "2022-04-26T05:20:40.9156827Z"
     },
     {
       "FullName": "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
       "LastWriteTime": "2021-04-09T09:21:34Z"
+    },
+    {
+      "FullName": "UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "LastWriteTime": "2021-04-09T09:26:52Z"
+    },
+    {
+      "FullName": "Unity.Animation.Rigging, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "LastWriteTime": "2022-04-26T05:20:41.7020872Z"
+    },
+    {
+      "FullName": "mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+      "LastWriteTime": "2021-04-09T09:21:34Z"
+    },
+    {
+      "FullName": "UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "LastWriteTime": "2021-04-09T09:26:46Z"
     }
   ],
   "Functions": [
     {
       "FullName": "System.Int32 Unity.Burst.Intrinsics.X86::DoGetCSRTrampoline()",
       "ModuleOptionsHash": 8794384452606821980,
-      "ModuleHash": "446a525515113e1da32b14ceea27de59",
+      "ModuleHash": "a343bd4cd2f8f27b93491f62020fa599",
       "LinkName": "CDCA4A5193BE5947",
       "AssemblyDependencyIndices": [
         0,
@@ -24,10 +40,23 @@
     {
       "FullName": "System.Void Unity.Burst.Intrinsics.X86::DoSetCSRTrampoline(System.Int32)",
       "ModuleOptionsHash": 8794384452606821980,
-      "ModuleHash": "1e77cd11eb49c157cc31c3c43fcbef29",
+      "ModuleHash": "84572e71bb708ccbb5d90db2135ef028",
       "LinkName": "801E9A000BB37B05",
       "AssemblyDependencyIndices": [
         0,
+        1
+      ]
+    },
+    {
+      "FullName": "System.Void UnityEngine.Animations.ProcessAnimationJobStruct`1<UnityEngine.Animations.Rigging.RigSyncSceneToStreamJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)",
+      "ModuleOptionsHash": 8794384452606821980,
+      "ModuleHash": "c7249cb75694577424f3b4684dd2de4a",
+      "LinkName": "BC91ACAA17E251EE",
+      "AssemblyDependencyIndices": [
+        2,
+        3,
+        4,
+        5,
         1
       ]
     }

@@ -5,15 +5,20 @@ using UnityEngine;
 public class PatricleControl : MonoBehaviour
 {
     public ParticleSystem particle;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
+    public bool isParticle;
+ 
+    public void Toggle()
     {
-        
+        if(isParticle == false)
+        {
+            particle.Play();
+            isParticle = true;
+        }
+        else if(isParticle == true)
+        {
+            particle.Stop();
+            isParticle = false;
+        }
     }
 }
