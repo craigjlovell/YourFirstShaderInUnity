@@ -3,7 +3,11 @@
   "Assemblies": [
     {
       "FullName": "Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-04-26T05:20:40.9156827Z"
+      "LastWriteTime": "2022-04-26T06:22:43.5925822Z"
+    },
+    {
+      "FullName": "netstandard, Version=2.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51",
+      "LastWriteTime": "2021-04-09T09:21:34Z"
     },
     {
       "FullName": "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
@@ -15,7 +19,7 @@
     },
     {
       "FullName": "Unity.Animation.Rigging, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-04-26T05:20:41.7020872Z"
+      "LastWriteTime": "2022-04-26T06:22:44.1221651Z"
     },
     {
       "FullName": "mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
@@ -34,30 +38,33 @@
       "LinkName": "CDCA4A5193BE5947",
       "AssemblyDependencyIndices": [
         0,
-        1
+        1,
+        2
       ]
     },
     {
       "FullName": "System.Void Unity.Burst.Intrinsics.X86::DoSetCSRTrampoline(System.Int32)",
       "ModuleOptionsHash": 8794384452606821980,
-      "ModuleHash": "84572e71bb708ccbb5d90db2135ef028",
+      "ModuleHash": "70906c41a0061511ac919a84bf7586d6",
       "LinkName": "801E9A000BB37B05",
       "AssemblyDependencyIndices": [
         0,
-        1
+        1,
+        2
       ]
     },
     {
       "FullName": "System.Void UnityEngine.Animations.ProcessAnimationJobStruct`1<UnityEngine.Animations.Rigging.RigSyncSceneToStreamJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)",
       "ModuleOptionsHash": 8794384452606821980,
-      "ModuleHash": "c7249cb75694577424f3b4684dd2de4a",
+      "ModuleHash": "6b2b8d5e842415ce6f5d5e26ffb82e54",
       "LinkName": "BC91ACAA17E251EE",
       "AssemblyDependencyIndices": [
-        2,
         3,
         4,
         5,
-        1
+        6,
+        1,
+        2
       ]
     }
   ]
