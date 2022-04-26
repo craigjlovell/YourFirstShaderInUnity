@@ -89,7 +89,7 @@ public class InputManagerTPS : MonoBehaviour
 
     private void SetCursorState(bool a_static)
     {
-        Cursor.lockState = a_static ? CursorLockMode.Locked : CursorLockMode.None;
+        //Cursor.lockState = a_static ? CursorLockMode.Locked : CursorLockMode.None;
     }
 
     // Start is called before the first frame update
@@ -101,6 +101,6 @@ public class InputManagerTPS : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        Debug.Log(Cursor.lockState);
     }
 }

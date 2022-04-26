@@ -1,5 +1,5 @@
 {
-    "name": "TPS_Controller",
+    "name": "FPS",
     "maps": [
         {
             "name": "Player",
@@ -181,6 +181,33 @@
                     "processors": "",
                     "groups": "",
                     "action": "Grenade",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "UI",
+            "id": "b56a0317-a777-4978-953e-7c3ab7667e64",
+            "actions": [
+                {
+                    "name": "Click",
+                    "type": "PassThrough",
+                    "id": "04e0bccc-f302-4f28-9c1b-67f83b25616a",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "3cec47e8-2f41-4cab-8450-5a7d6b095c87",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Click",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
