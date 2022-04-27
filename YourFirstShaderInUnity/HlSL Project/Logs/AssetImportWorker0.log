@@ -1,0 +1,120 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.5f1 (8095aa901b9b) revision 8426922'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Education; OS build 19044.1288; Version 2009; 64bit' Language: 'en' Physical Memory: 32617 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+L:/GraphicsUnityProject/YourFirstShaderInUnity/HlSL Project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50433
+Successfully changed project path to: L:/GraphicsUnityProject/YourFirstShaderInUnity/HlSL Project
+L:/GraphicsUnityProject/YourFirstShaderInUnity/HlSL Project
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 37.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.5f1 (8095aa901b9b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path L:/GraphicsUnityProject/YourFirstShaderInUnity/HlSL Project/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2489)
+    Vendor:   
+    VRAM:     8050 MB
+    Driver:   30.0.14.9676
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56856
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001795 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 25.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.016 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.064170 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.022 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1174 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 63.2 MB.
+System memory in use after: 63.2 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1620.
+Total: 2.355900 ms (FindLiveObjects: 0.353700 ms CreateObjectMapping: 0.126200 ms MarkObjects: 1.799700 ms  DeleteObjects: 0.075000 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/Action.cs
+  artifactKey: Guid(41c66d5cb2ff9e149a6e04630a3ae97b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Action.cs using Guid(41c66d5cb2ff9e149a6e04630a3ae97b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '302f28183584ef7010fe665587d79e07') in 0.033315 seconds
+  Import took 0.035283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Scripts/ActionListUI.cs
+  artifactKey: Guid(51dcba123fe78014fa15612b87bffb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActionListUI.cs using Guid(51dcba123fe78014fa15612b87bffb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce115c9b7b4cd3d15519757a2581bf2c') in 0.076657 seconds
+  Import took 0.079222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Scripts/ActionList.cs
+  artifactKey: Guid(7845fb466cc78294c91662a4b12e75b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActionList.cs using Guid(7845fb466cc78294c91662a4b12e75b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9aa088676d310fd90c3315ab1189c59') in 0.067531 seconds
+  Import took 0.069569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/ybot.fbx
+  artifactKey: Guid(b3e5bf3d6e02ab54b82345f87ef2f067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ybot.fbx using Guid(b3e5bf3d6e02ab54b82345f87ef2f067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c76af8d59c40a9bfbf5715a43bf40783') in 0.391046 seconds
+  Import took 0.393313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(87047635e82c728438cd80c108430390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(87047635e82c728438cd80c108430390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0c45daf7a4e48aeddf586934875eff6') in 0.066259 seconds
+  Import took 0.068146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 228.252714 seconds.
+  path: Assets/Scripts/ToggleActive.cs
+  artifactKey: Guid(84392f0fac856ed479ac67d18f9f9c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ToggleActive.cs using Guid(84392f0fac856ed479ac67d18f9f9c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a46e4118cdf44a3039fbc41c329a802') in 0.137830 seconds
+  Import took 0.139878 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
